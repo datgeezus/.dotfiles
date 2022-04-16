@@ -19,7 +19,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'rebelot/kanagawa.nvim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Initialize plugin system
 call plug#end()
@@ -69,6 +70,7 @@ endif
 let g:gruvbox_material_background = 'hard'
 colorscheme gruvbox-material
 " colorscheme spaceduck
+" colorscheme kanagawa
 set list
 set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<
 set colorcolumn=80
