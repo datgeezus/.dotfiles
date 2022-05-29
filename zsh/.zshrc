@@ -11,5 +11,7 @@ export TERMINAL=kitty
 
 eval "$(starship init zsh)"
 
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
