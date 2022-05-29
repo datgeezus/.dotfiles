@@ -20,6 +20,7 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'rebelot/kanagawa.nvim'
+Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' } 
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Initialize plugin system
