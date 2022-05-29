@@ -17,7 +17,8 @@ local options = {
     hlsearch = true,     -- hightlight search matches
     ignorecase = true,   -- ignore case in searches
     smartcase = true,
-    swapfile = false,   -- creates a swap file
+    swapfile = false,    -- creates a swap file
+    termguicolors = true
 }
 
 
