@@ -34,10 +34,10 @@ keymap("n", "<S-h>", ":bprev<CR>", opts)
 keymap("n", "<S-x>", ":bd<CR>", opts)
 
 -- move line vertically
-keymap("n", "<Up>",   "[e", opts)
-keymap("n", "<Down>", "]e", opts)
-keymap("v", "<Up>",   "[egv", opts)
-keymap("v", "<Down>", "]egv", opts)
+keymap("n", "<Up>",   ":m .-2<CR>==", opts)
+keymap("n", "<Down>", ":m .+1<CR>==", opts)
+keymap("v", "<Up>",   ":m '<-2<CR>gv=gv", opts)
+keymap("v", "<Down>", ":m '>+1<CR>gv=gv", opts)
 
 -- move lines horizontally
 keymap("n", "<Left>",  "<<", opts)
