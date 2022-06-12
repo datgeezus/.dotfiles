@@ -311,7 +311,7 @@ globalkeys = gears.table.join(
         {description = "restore minimized", group = "client"}),
 
     -- Prompt
-    awful.key({ modkey }, "r",
+    awful.key({ modkey }, "space",
         function ()
             -- awful.screen.focused().mypromptbox:run()
             awful.util.spawn("dmenu_run")
