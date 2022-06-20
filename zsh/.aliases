@@ -1,4 +1,4 @@
-alias tmux='tmux attach || tmux new-session'
+alias tmux='tmux new -As0'
 alias ls='ls --color=auto'
 alias la="ls -AlhG"
 alias dir='dir --color=auto'
