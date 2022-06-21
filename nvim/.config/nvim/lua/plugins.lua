@@ -4,7 +4,7 @@ vim.call('plug#begin')
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'airblade/vim-gitgutter'
-Plug 'Yggdroot/indentLine'
+Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
