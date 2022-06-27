@@ -19,5 +19,6 @@ eval "$(starship init zsh)"
 
 # Appends every command to the history file once it is executed
 setopt inc_append_history
-HISTFILE=~/.zhistory
-HISTSIZE=10000
+export HISTOCONTROL=ignoredups
+export HISTFILE=~/.zsh_history
+export HISTSIZE=10000
