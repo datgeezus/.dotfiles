@@ -18,7 +18,9 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Appends every command to the history file once it is executed
-setopt inc_append_history
-export HISTOCONTROL=ignoredups
+export HISTOCONTROL=ignoreups
 export HISTFILE=~/.zsh_history
 export HISTSIZE=10000
+export SAVEHIST=10000
+setopt HIST_IGNORE_ALL_DUPS
+setopt INC_APPEND_HISTORY_TIME
