@@ -1,0 +1,52 @@
+""" Plugins
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+set NERDTree
+
+
+set ideajoin
+set idearefactormode=keep
+set clipboard+=unnamed
+set clipboard+=ideaput
+
+let mapleader=" "
+
+map <C-c> <Esc>
+
+map <leader>t   :NERDTreeToggle<CR>
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+
+vnoremap <left> <gv
+vnoremap <right> >gv
+nnoremap ]]     :action MethodUp<CR>
+nnoremap [[     :action MethodDown<CR>
+
+nnoremap ; :
+
+nnoremap <leader>z :action ToggleDistractionFreeMode<CR>
+nnoremap <leader>h :action PreviousTab<CR>
+nnoremap <leader>l :action NextTab<CR>
+nnoremap <leader>q :action CloseContent<CR>
+nnoremap <leader>qa :action CloseAllEditors<CR>
+nnoremap <leader>zc :action CollapseAllRegions<CR>
+nnoremap <leader>zo :action ExpandAllRegions<CR>
+nnoremap <leader>r :action Refactorings.QuickListPopupAction<CR>
+nnoremap <leader>= :action ReformatCode<CR>
+nnoremap <leader>o :action OptimizeImports<CR>
+nnoremap <leader>u :action FindUsages<CR>
+nnoremap <leader>c :action CallHierarchy<CR>
+nnoremap <c-s> :action FileStructurePopup<CR>
+nnoremap <c-o> :action GotoSymbol<CR>
+nnoremap gs :action GotoClass<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gd :action GotToDeclaration<CR>
+nnoremap gp :action GotToSuperMethod<CR>
+nnoremap gt :action GotoTest<CR>
+nnoremap gb :action Back<CR>
+nnoremap gf :action Forward<CR>
+
