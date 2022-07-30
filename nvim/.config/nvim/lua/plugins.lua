@@ -17,5 +17,8 @@ Plug 'sainnhe/gruvbox-material'
 Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn[':TSUpdate']})
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
 
 vim.call('plug#end')
