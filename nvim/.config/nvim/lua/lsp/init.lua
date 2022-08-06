@@ -3,4 +3,4 @@ if not status_ok then
     return
 end
 
-require("lsp.mason-lspconfig")
+require("lsp.configs")

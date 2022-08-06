@@ -1,7 +1,7 @@
 local options = {
     backup = false,
     writebackup = false,
-    clipboard = "unnamedplus",   -- allow nvim access the system clipboard
+    -- clipboard = "unnamedplus",   -- allow nvim access the system clipboard
     mouse = "a",        -- allow the mouse to be used in nvim
     tabstop = 4,        -- number of visual spaces per tab
     softtabstop = 4,    -- number of spaces in tab when editting
