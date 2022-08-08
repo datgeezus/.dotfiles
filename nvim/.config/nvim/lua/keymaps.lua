@@ -13,6 +13,9 @@ keymap("n", "<leader>es", ":sp %%", opts)
 keymap("n", "<leader>ev", ":vsp %%", opts)
 keymap("n", "<leader>et", ":tabe %%", opts)
 
+keymap("n", "<leader>j", "jzz", opts)
+keymap("n", "<leader>k", "kzz", opts)
+
 -- window-movements
 keymap("n", "<C-j>", "<C-W>j", opts)
 keymap("n", "<C-k>", "<C-W>k", opts)

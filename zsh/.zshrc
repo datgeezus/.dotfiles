@@ -11,7 +11,7 @@ export TERMINAL=kitty
 
 eval "$(starship init zsh)"
 
-# [ -f ~/.local/bin/zsh-vim-mode.plugin.zsh ] && source ~/.local/bin/zsh-vim-mode.plugin.zsh
+[ -f ~/.zsh-vi-mode.plugin.zsh ] && source ~/.zsh-vi-mode.plugin.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f ~/.aliases ] && source ~/.aliases

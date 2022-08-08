@@ -20,5 +20,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
+Plug 'norcalli/nvim-colorizer.lua'
 
 vim.call('plug#end')
