@@ -27,5 +27,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'onsails/lspkind-nvim'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 
 vim.call('plug#end')
