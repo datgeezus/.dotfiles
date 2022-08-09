@@ -14,7 +14,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'sainnhe/gruvbox-material'
+Plug 'navarasu/onedark.nvim'
 Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
+Plug('catppuccin/nvim', {as = 'catppuccin'})
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn[':TSUpdate']})
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
