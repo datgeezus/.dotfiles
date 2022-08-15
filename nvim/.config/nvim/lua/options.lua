@@ -21,7 +21,7 @@ local options = {
     swapfile = false,   -- creates a swap file
     termguicolors = true,
     colorcolumn = "88",
-    signcolumn = "yes",
+    signcolumn = "yes:1",
 }
 
 
