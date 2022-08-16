@@ -3,11 +3,11 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'airblade/vim-gitgutter'
+-- Plug 'airblade/vim-gitgutter'
+Plug 'lewis6991/gitsigns.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'

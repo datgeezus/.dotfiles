@@ -6,6 +6,7 @@ require "lualineconf"
 require "blanklineconf"
 require "lsp"
 require "masonconf"
-require "colorizerconf"
 require "cmpconf"
+require('colorizer').setup()
+require('gitsigns').setup()
 vim.cmd "colorscheme nightfox"
