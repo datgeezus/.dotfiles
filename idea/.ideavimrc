@@ -40,7 +40,7 @@ nnoremap <leader>= :action ReformatCode<CR>
 nnoremap <leader>o :action OptimizeImports<CR>
 nnoremap <leader>u :action FindUsages<CR>
 nnoremap <leader>c :action CallHierarchy<CR>
-nnoremap <leader>fb :action Swticher<CR>
+nnoremap <leader>fb :action Switcher<CR>
 nnoremap <c-s> :action FileStructurePopup<CR>
 nnoremap <c-o> :action GotoSymbol<CR>
 nnoremap gs :action GotoClass<CR>
