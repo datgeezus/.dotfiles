@@ -9,6 +9,7 @@ require "masonconf"
 require "cmpconf"
 require('colorizer').setup()
 require('gitsigns').setup()
+require "nvimtreeconf"
 require "base16conf"
 require "catppuccinconf"
 -- vim.cmd [[colorscheme nightfox]]

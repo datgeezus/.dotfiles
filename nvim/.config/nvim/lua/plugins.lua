@@ -26,6 +26,8 @@ Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'onsails/lspkind-nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'kyazdani42/nvim-tree.lua'
 -- colorschemes
 Plug 'sainnhe/gruvbox-material'
 Plug 'navarasu/onedark.nvim'
