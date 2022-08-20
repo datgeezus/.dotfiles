@@ -9,4 +9,9 @@ require "masonconf"
 require "cmpconf"
 require('colorizer').setup()
 require('gitsigns').setup()
-vim.cmd "colorscheme nightfox"
+require "base16conf"
+require "catppuccinconf"
+-- vim.cmd [[colorscheme nightfox]]
+-- vim.cmd [[colorscheme iceberg]]
+vim.cmd [[colorscheme horizon]]
+-- vim.cmd [[colorscheme catppuccin]]

@@ -3,7 +3,6 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
 
 Plug 'nvim-lua/plenary.nvim'
--- Plug 'airblade/vim-gitgutter'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'nvim-lualine/lualine.nvim'
@@ -13,10 +12,6 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
-Plug 'sainnhe/gruvbox-material'
-Plug 'navarasu/onedark.nvim'
-Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
-Plug('catppuccin/nvim', {as = 'catppuccin'})
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn[':TSUpdate']})
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
@@ -31,5 +26,13 @@ Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'onsails/lspkind-nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
+-- colorschemes
+Plug 'sainnhe/gruvbox-material'
+Plug 'navarasu/onedark.nvim'
+Plug 'cocopon/iceberg.vim'
+Plug 'RRethy/nvim-base16'
+Plug 'ntk148v/vim-horizon'
+Plug('catppuccin/nvim', {as = 'catppuccin'})
+Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
 
 vim.call('plug#end')
