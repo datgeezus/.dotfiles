@@ -15,6 +15,6 @@ require "catppuccinconf"
 require("poimandres").setup()
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd [[colorscheme iceberg]]
--- vim.cmd [[colorscheme horizon]]
+vim.cmd [[colorscheme horizon]]
 -- vim.cmd [[colorscheme catppuccin]]
-vim.cmd [[colorscheme poimandres]]
+-- vim.cmd [[colorscheme poimandres]]
