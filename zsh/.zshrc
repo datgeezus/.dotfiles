@@ -8,6 +8,7 @@ export VISUAL='/usr/bin/nvim'
 export EDITOR=$VISUAL
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 export TERMINAL=kitty
+export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(starship init zsh)"
 
@@ -15,6 +16,7 @@ eval "$(starship init zsh)"
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.local_aliases ] && source ~/.local_aliases
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Appends every command to the history file once it is executed
