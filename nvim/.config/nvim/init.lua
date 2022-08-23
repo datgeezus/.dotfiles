@@ -11,8 +11,8 @@ require('colorizer').setup()
 require('gitsigns').setup()
 require "nvimtreeconf"
 -- require "base16conf"
-require "catppuccinconf"
-require("poimandres").setup()
+-- require "catppuccinconf"
+-- require("poimandres").setup()
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd [[colorscheme iceberg]]
 vim.cmd [[colorscheme horizon]]
