@@ -9,6 +9,8 @@ require "masonconf"
 require "cmpconf"
 require('colorizer').setup()
 require('gitsigns').setup()
+require('lsp-colors').setup()
+require('trouble').setup()
 require "nvimtreeconf"
 -- require "base16conf"
 -- require "catppuccinconf"

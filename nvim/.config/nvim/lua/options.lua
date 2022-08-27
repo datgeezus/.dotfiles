@@ -20,6 +20,7 @@ local options = {
     smartcase = true,
     swapfile = false,   -- creates a swap file
     termguicolors = true,
+    background = "dark",
     colorcolumn = "88",
     signcolumn = "yes:1",
 }

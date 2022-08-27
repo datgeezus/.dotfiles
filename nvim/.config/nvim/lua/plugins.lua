@@ -28,11 +28,14 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'folke/lsp-colors.nvim'
+Plug 'folke/trouble.nvim'
 -- colorschemes
 -- Plug 'sainnhe/gruvbox-material'
 -- Plug 'navarasu/onedark.nvim'
+Plug 'ellisonleao/gruvbox.nvim'
 Plug 'cocopon/iceberg.vim'
--- Plug 'RRethy/nvim-base16'
+Plug 'rebelot/kanagawa.nvim'
 Plug 'ntk148v/vim-horizon'
 Plug('catppuccin/nvim', {as = 'catppuccin'})
 Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
