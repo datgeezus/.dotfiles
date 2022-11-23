@@ -30,6 +30,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'folke/lsp-colors.nvim'
 Plug 'folke/trouble.nvim'
+Plug 'David-Kunz/markid'
 -- colorschemes
 -- Plug 'sainnhe/gruvbox-material'
 -- Plug 'navarasu/onedark.nvim'
