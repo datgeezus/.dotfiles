@@ -17,6 +17,6 @@ require "nvimtreeconf"
 -- require("poimandres").setup()
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd [[colorscheme iceberg]]
-vim.cmd [[colorscheme horizon]]
--- vim.cmd [[colorscheme catppuccin]]
+-- vim.cmd [[colorscheme horizon]]
+vim.cmd [[colorscheme catppuccin-mocha]]
 -- vim.cmd [[colorscheme poimandres]]
