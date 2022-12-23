@@ -15,6 +15,7 @@ keymap("n", "<leader>et", ":tabe %%", opts)
 
 keymap("n", "<leader>j", "jzz", opts)
 keymap("n", "<leader>k", "kzz", opts)
+vim.keymap.set("n", "J", "mzJ`z")
 
 -- window-movements
 keymap("n", "<C-j>", "<C-W>j", opts)
@@ -69,6 +70,12 @@ keymap("n", "<leader><space>", ":nohlsearch<CR>", opts)
 
 keymap("n", ";", ":", opts_no_silent)
 keymap("i", "jk", "<ESC>", opts)
+
+-- copy/paste
+vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set("n", "<leader>Y", [["+Y]])
+vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 -- telescope
 keymap("n", "<leader>ff", "<CMD>lua require('telescope.builtin').find_files()<CR>", opts)

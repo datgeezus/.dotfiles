@@ -7,6 +7,7 @@ local options = {
     softtabstop = 4,    -- number of spaces in tab when editting
     shiftwidth = 4,
     expandtab = true,   -- tabs as spaces
+    smartindent = true,
     splitbelow = true,
     splitright = true,
     number = true,      -- show line numbers
@@ -22,7 +23,8 @@ local options = {
     termguicolors = true,
     background = "dark",
     colorcolumn = "88",
-    signcolumn = "yes:1",
+    signcolumn = "yes",
+    scrolloff = 8,
 }
 
 
