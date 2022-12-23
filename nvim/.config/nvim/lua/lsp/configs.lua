@@ -34,8 +34,17 @@ local opts = {
     flags = lsp_flags,
 }
 
--- TODO: Add per-language settings
-
 for _, server in pairs(servers) do
     lspconfig[server].setup(opts)
 end
+
+-- Per-language settings
+lspconfig["sumneko_lua"].setup({
+    settings = {
+        Lua = {
+            diagnostics = {
+                globals = { 'vim' }
+            }
+        }
+    }
+})
