@@ -47,5 +47,6 @@ Plug 'ntk148v/vim-horizon'
 Plug('catppuccin/nvim', {as = 'catppuccin'})
 Plug('EdenEast/nightfox.nvim', {tag = 'v1.0.0'})
 Plug 'olivercederborg/poimandres.nvim'
+Plug 'Vimjas/vim-python-pep8-indent'
 
 vim.call('plug#end')
