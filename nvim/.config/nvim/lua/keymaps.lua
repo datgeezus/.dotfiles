@@ -25,7 +25,7 @@ keymap("n", "<C-l>", "<C-W>l", opts)
 
 -- open netrw
 -- keymap("n", "<leader>e", ":Lex 30<CR>", opts)
-keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>t", ":NvimTreeToggle<CR>", opts)
 
 -- resize windows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
