@@ -1,6 +1,6 @@
 local mason_lspconfig = require("mason-lspconfig")
 local lspconfig = require("lspconfig")
-local servers = { "sumneko_lua", "jdtls", "tsserver", "pyright", "rust_analyzer", "jsonls", "yamlls", "taplo" }
+local servers = { "lua_ls", "jdtls", "tsserver", "pyright", "rust_analyzer", "jsonls", "yamlls", "taplo" }
 
 mason_lspconfig.setup({
     ensure_installed = servers,
@@ -39,7 +39,7 @@ for _, server in pairs(servers) do
 end
 
 -- Per-language settings
-lspconfig["sumneko_lua"].setup({
+lspconfig["lua_ls"].setup({
     settings = {
         Lua = {
             diagnostics = {
