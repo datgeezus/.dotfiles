@@ -4,7 +4,8 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 export CLICOLOR=1
-export VISUAL='/usr/bin/nvim'
+[ -f /usr/bin/nvim ] && export VISUAL='/usr/bin/nvim'
+[ -f /opt/homebrew/bin/nvim ] && export VISUAL='/opt/homebrew/bin/nvim'
 export EDITOR=$VISUAL
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 export TERMINAL=kitty
