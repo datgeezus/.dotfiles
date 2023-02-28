@@ -25,6 +25,7 @@ local options = {
     colorcolumn = "88",
     signcolumn = "yes",
     scrolloff = 8,
+    list = true,
 }
 
 

@@ -24,8 +24,7 @@ return {
     'L3MON4D3/LuaSnip',
     'rafamadriz/friendly-snippets',
     'VonHeikemen/lsp-zero.nvim',
-    'kyazdani42/nvim-web-devicons',
-    'kyazdani42/nvim-tree.lua',
+    { "nvim-tree/nvim-web-devicons", lazy = true },
     'folke/lsp-colors.nvim',
     'folke/trouble.nvim',
     'David-Kunz/markid',
@@ -39,4 +38,5 @@ return {
     {'catppuccin/nvim', lazy=true, name = 'catppuccin'},
     {'EdenEast/nightfox.nvim', lazy=true, tag = 'v1.0.0'},
     {'olivercederborg/poimandres.nvim', lazy=true},
+    { "MunifTanjim/nui.nvim", lazy = true },
 }
