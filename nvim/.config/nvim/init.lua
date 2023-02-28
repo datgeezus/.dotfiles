@@ -26,7 +26,6 @@ require('gitsigns').setup()
 require('lsp-colors').setup()
 require('trouble').setup()
 require "nvimtreeconf"
-require "catppuccinconf"
 -- require("poimandres").setup()
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd [[colorscheme iceberg]]

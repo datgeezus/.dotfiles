@@ -6,12 +6,6 @@ return {
     'tpope/vim-vinegar',
     { "JoosepAlviste/nvim-ts-context-commentstring", lazy = true },
     {
-        'nvim-treesitter/nvim-treesitter',
-        run = function ()
-            pcall(require('nvim-treesitter.install').update { with_sync = true })
-        end,
-    },
-    {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
         dependencies = { 'nvim-lua/plenary.nvim' }
