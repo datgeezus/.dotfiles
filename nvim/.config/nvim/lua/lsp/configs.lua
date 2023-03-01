@@ -1,10 +1,10 @@
-local mason_lspconfig = require("mason-lspconfig")
+-- local mason_lspconfig = require("mason-lspconfig")
 local lspconfig = require("lspconfig")
 local servers = { "lua_ls", "jdtls", "tsserver", "pyright", "rust_analyzer", "jsonls", "yamlls", "taplo" }
-
-mason_lspconfig.setup({
-    ensure_installed = servers,
-})
+--
+-- mason_lspconfig.setup({
+--     ensure_installed = servers,
+-- })
 
 local on_attach = function(client, bufnr)
     -- Enable completion triggered by <c-x><c-o>

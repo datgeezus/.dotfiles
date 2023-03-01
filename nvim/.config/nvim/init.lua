@@ -18,7 +18,6 @@ require "keymaps"
 -- require "plugins"
 require('lazy').setup('plugins')
 require "lsp"
-require "masonconf"
 require "cmpconf"
 require('colorizer').setup()
 require('gitsigns').setup()
