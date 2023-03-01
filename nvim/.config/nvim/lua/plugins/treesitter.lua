@@ -29,7 +29,7 @@ return {
     { "<c-space>", desc = "Increment selection" },
     { "<bs>", desc = "Schrink selection", mode = "x" },
   },
-  ---@type TSConfig
+  ---@type Config
   opts = {
     highlight = { enable = true },
     indent = { enable = true, disable = { "python" } },
