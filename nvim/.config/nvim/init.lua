@@ -19,10 +19,6 @@ require "keymaps"
 require('lazy').setup('plugins')
 require "lsp"
 require "cmpconf"
-require('colorizer').setup()
-require('gitsigns').setup()
-require('lsp-colors').setup()
-require('trouble').setup()
 -- require("poimandres").setup()
 -- vim.cmd [[colorscheme nightfox]]
 -- vim.cmd [[colorscheme iceberg]]
