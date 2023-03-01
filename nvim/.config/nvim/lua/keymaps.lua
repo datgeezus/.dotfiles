@@ -81,7 +81,3 @@ vim.keymap.set("n", "<leader>ff", "<CMD>lua require('telescope.builtin').find_fi
 vim.keymap.set("n", "<leader>fg", "<CMD>lua require('telescope.builtin').live_grep()<CR>", opts)
 vim.keymap.set("n", "<leader>fb", "<CMD>lua require('telescope.builtin').buffers()<CR>", opts)
 vim.keymap.set("n", "<leader>fh", "<CMD>lua require('telescope.builtin').help_tags()<CR>", opts)
-
-vim.keymap.set("n", "<leader>xx", "<CMD>TroubleToggle<CR>", opts)
-vim.keymap.set("n", "<leader>xq", "<CMD>Trouble quickfix<CR>", opts)
-vim.keymap.set("n", "<leader>xl", "<CMD>Trouble loclist<CR>", opts)

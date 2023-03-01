@@ -26,7 +26,6 @@ return {
     'VonHeikemen/lsp-zero.nvim',
     { "nvim-tree/nvim-web-devicons", lazy = true },
     'folke/lsp-colors.nvim',
-    'folke/trouble.nvim',
     'David-Kunz/markid',
     'Vimjas/vim-python-pep8-indent',
     {'sainnhe/gruvbox-material', lazy = true},
