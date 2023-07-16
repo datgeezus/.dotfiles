@@ -1,4 +1,4 @@
-""" Plugins
+"stractionFreeMode)z"
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 set NERDTree
@@ -6,8 +6,8 @@ set NERDTree
 
 set ideajoin
 set idearefactormode=keep
-set clipboard+=unnamed
-set clipboard+=ideaput
+" set clipboard+=unnamed
+" set clipboard+=ideaput
 
 let mapleader=" "
 
@@ -18,36 +18,46 @@ sethandler <c-j> a:vim
 sethandler <c-k> a:vim
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
+nnoremap <c-k> <c-w>k
 
 vnoremap <left> <gv
 vnoremap <right> >gv
-nnoremap ]]     :action MethodUp<CR>
-nnoremap [[     :action MethodDown<CR>
+nnoremap ]]     <Action>(MethodUp)
+nnoremap [[     <Action>(MethodDown)
 
 nnoremap ; :
 
-nnoremap <leader>z :action ToggleDistractionFreeMode<CR>
-nnoremap <leader>h :action PreviousTab<CR>
-nnoremap <leader>l :action NextTab<CR>
-nnoremap <leader>q :action CloseContent<CR>
-nnoremap <leader>qa :action CloseAllEditors<CR>
-nnoremap <leader>zc :action CollapseAllRegions<CR>
-nnoremap <leader>zo :action ExpandAllRegions<CR>
-nnoremap <leader>r :action Refactorings.QuickListPopupAction<CR>
-nnoremap <leader>= :action ReformatCode<CR>
-nnoremap <leader>o :action OptimizeImports<CR>
-nnoremap <leader>u :action FindUsages<CR>
-nnoremap <leader>c :action CallHierarchy<CR>
-nnoremap <leader>fb :action Switcher<CR>
-nnoremap <c-s> :action FileStructurePopup<CR>
-nnoremap <c-o> :action GotoSymbol<CR>
-nnoremap gs :action GotoClass<CR>
-nnoremap gi :action GotoImplementation<CR>
-nnoremap gd :action GotoDeclaration<CR>
-nnoremap gp :action GotoSuperMethod<CR>
-nnoremap gt :action GotoTest<CR>
-nnoremap <C-o> :action Back<CR>
-nnoremap <C-i> :action Forward<CR>
+" system clipboard
+vmap <leader>y "+y
+vmap <leader>d "+d
+vmap <leader>p "+p
+vmap <leader>P "+P
+nmap <leader>y "+yy
+nmap <leader>p "+p
+nmap <leader>P "+P
+
+nnoremap <leader>z <Action>(ToggleDistractionFreeMode)
+"nnoremap <leader>h <Action> PreviousTab<CR>
+map <leader>h <Action>(PreviousTab)
+map <leader>l <Action>(NextTab)
+map <leader>q <Action>(CloseContent)
+map <leader>qa <Action>(CloseAllEditors)
+map <leader>zc <Action>(CollapseAllRegions)
+map <leader>zo <Action>(ExpandAllRegions)
+map <leader>r <Action>(Refactorings.QuickListPopupAction)
+map <leader>= <Action>(ReformatCode)
+map <leader>o <Action>(OptimizeImports)
+map <leader>u <Action>(FindUsages)
+map <leader>c <Action>(CallHierachy)
+map <leader><leader> <Action>(Switcher)
+map <c-s> <Action>(FileStructurePopup)
+map <c-o> <Action>(GotoSymbol)
+map gs <Action>(GotoClass)
+map gi <Action>(GotoImplementation)
+map gd <Action>(GotoDeclaration)
+map gp <Action>(GotoSuperMethod)
+map gt <Action>(GotoTest)
+map <C-o> <Action>(Back)
+map <C-i> <Action>(Forward)
 
