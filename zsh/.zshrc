@@ -8,7 +8,7 @@ export CLICOLOR=1
 [ -f /opt/homebrew/bin/nvim ] && export VISUAL='/opt/homebrew/bin/nvim'
 export EDITOR=$VISUAL
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
-export TERMINAL=kitty
+# export TERMINAL=kitty
 export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(starship init zsh)"
